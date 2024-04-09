@@ -114,7 +114,7 @@
   onMounted(async () => {
     try {
       const response = await uni.request({
-        url: 'https://api.strayanimals.temp.ziqiang.net.cn/pets', // 修改为你的后端接口地址
+        url: 'https://api.strayanimals.temp.ziqiang.net.cn/pets', 
         method: 'GET'
       });
       if (response[1].statusCode === 200) {
